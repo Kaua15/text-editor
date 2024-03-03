@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/quote-left.svg"
+        type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e2f0f61eff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text_formatation_options">
+            <button id="bold" class="bold forma"><i class="fa-solid fa-bold"></i></button>
+            <button id="superscript" class="superscript forma"><i class="fa-solid fa-superscript"></i></button>
+            <button id="subscript" class="subscript forma"><i class="fa-solid fa-subscript"></i></button>
+            <button id="insertOrderedList" class="list-ol forma"><i class="fa-solid fa-list-ol"></i></button>
+            <button id="insertUnorderedList" class="list-ul forma"><i class="fa-solid fa-list-ul"></i></button>
+            <button id="undo" class="rotate-left forma"><i class="fa-solid fa-rotate-left"></i></button>
+            <button id="redo" class="rotate-right forma"><i class="fa-solid fa-rotate-right"></i></button>
+            <button id="justifyLeft" class="align-left forma"><i class="fa-solid fa-align-left"></i></button>
+            <button id="justifyCenter" class="align-center forma"><i class="fa-solid fa-align-center"></i></button>
+            <button id="justifyRight" class="align-right forma"><i class="fa-solid fa-align-right"></i></button>
+            <button id="justifyFull" class="align_justify forma"><i class="fa-solid fa-align-justify"></i></button>
+        </div>
+        <div class="text_formatation_font">
+            <select name="select_font" id="fontName" class="select_font select">
+            </select>
+            <select name="select_size" id="fontSize" class="select_size select"></select>
+            <form class="colors">
+                <div>
+                    <input type="color" name="color1" id="foreColor" class="colorone">
+                    <span>Font color</span>
+                </div>
+                <div>
+                    <input type="color" name="color2" id="hiliteColor" class="colorsec">
+                    <span>Highlight</span>
+                </div>
+            </form>
+        </div>
+        <div id="text-input" contenteditable="true"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

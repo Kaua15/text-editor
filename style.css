@@ -1,0 +1,120 @@
+/* PREFEFINIÇÕES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Poppins;
+    background: linear-gradient(45deg, hsla(214, 76%, 52%, 1) 12%, hsla(0, 0%, 96%, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* BLOCO EDITAVEL */
+
+.container {
+    width: 52%;
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0 4mm 1mm rgb(0, 0, 0));
+    padding: 2.5em;   
+}
+
+.text_formatation_options {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BOTÕES */
+.forma {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.6em;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.forma:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.forma:active {
+    border: none;
+}
+
+.text_formatation_font {
+    display: flex;
+    align-items: center;
+    margin-top: 1.4em;
+    gap: 0.8em;
+}
+
+.colors {
+    display: flex;
+    gap: 1em;
+}
+
+.select {
+    height: 48px;
+    padding: 1em;
+    border-radius: 10px;
+    border: solid 1px #767676;
+}
+
+.select_font {
+    width: 200px;
+}
+
+.select_size {
+    width: 78px;
+}
+
+
+/* AREA DE COR */
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 9000px;
+    cursor: pointer;
+    width: 50px;
+    height: 28px;
+    background-color: transparent;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0;
+}
+
+/* AREA DE TEXTO */
+#text-input {
+    height: 40vh;
+    width: 100%;
+    border: solid 2px #999999;
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: 2em;
+    overflow: hidden;
+}
+
+
+

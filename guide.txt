@@ -1,0 +1,23 @@
+Gradient color:
+#85BAFF to #F5F5F5
+
+font awesome:
+bold: <i class="fa-solid fa-bold"></i>
+superscropt: <i class="fa-solid fa-superscript"></i>
+subscript: <i class="fa-solid fa-subscript"></i>
+list-ol: <i class="fa-solid fa-list-ol"></i>
+list-ul: <i class="fa-solid fa-list-ul"></i>
+rotate-left: <i class="fa-solid fa-rotate-left"></i>
+rotate-right: <i class="fa-solid fa-rotate-right"></i>
+align-left: <i class="fa-solid fa-align-left"></i>
+align-center: <i class="fa-solid fa-align-center"></i>
+align-right: <i class="fa-solid fa-align-right"></i>
+align-justify: <i class="fa-solid fa-align-justify"></i>
+
+Arial
+Verdana
+Times New Roman
+Garamond
+Georgia
+Courier New
+Cursive
